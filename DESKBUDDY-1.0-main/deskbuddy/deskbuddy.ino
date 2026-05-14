@@ -180,12 +180,12 @@ void loadConfig() {
   if (wifiSsid.isEmpty()) {
     wifiSsid    = "edison science corner";
     wifiPass    = "eeeeeeee";
-    apiKey      = "45fcf5807a5920e2006c2b8a077d423f";
+    apiKey      = "YOUR_API_KEY";
     city        = "Idukki";
     countryCode = "IN";
     tzString    = "IST-5:30";
-  } else {
-    if (apiKey.isEmpty())  apiKey = "45fcf5807a5920e2006c2b8a077d423f";
+  } else {apiKey = "YOUR_API_KEY";
+    if (apiKey.isEmpty())  
     if (city.isEmpty())    city = "Idukki";
     if (countryCode.isEmpty()) countryCode = "IN";
     if (tzString.isEmpty()) tzString = "IST-5:30";
